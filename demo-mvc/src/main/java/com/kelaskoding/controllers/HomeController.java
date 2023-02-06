@@ -13,7 +13,7 @@ public class HomeController {
     public String welcome(Model model){
         //String yang akan direturn ke index.html ditandai petik dua
         //Doing Something
-        String message = "Wecome Spring Boot Mas Err";
+        String message = "Welcome Spring Boot Cah Ganteng";
         model.addAttribute("msg",message);
         return "index";
     }
